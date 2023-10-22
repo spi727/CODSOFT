@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mohave', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    margin-top:150px;
+    background-color: rgb(0, 12, 37);
+    color: antiquewhite;
+    overflow-x: hidden;
+
+   
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 30px 10%;
+    background-color: rgb(3, 168, 228);
+    transition: all ease 0.50s;
+}
+.logo{
+    font-family: roboto;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 35px;
+    letter-spacing: 2px;
+    color: rgb(1, 39, 65);
+}
+.logo:hover{
+    color: rgb(0, 25, 90);
+    transition: 1s;
+}
+.nav{
+    display: flex;
+}
+a{
+    color: antiquewhite;
+}
+.nav a{
+    font-size:20px;
+    margin: 0 10px;
+    transition: all ease 0.50s;
+}
+.nav a:hover{
+    color: rgb(0, 35, 101);
+    transition: 1s
+}
+.nav a.active{
+    color: rgb(0, 35, 101);
+}
+section{
+    padding: 0 15%;
+}
+.matter{
+    position: relative;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    z-index: 10;
+    
+}
+.img1{
+    height: 700px;
+    width: 700px;
+}
+.img1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+h1{
+    font-size: 35px;
+    font-style: italic;
+    padding: 5px 25px;
+    
+}
+h2{
+    font-size: 25px;
+    font-style: italic;
+    padding: 5px 25px;
+    
+}
+p{
+    font-size: 20px;
+    padding: 5px 25px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+p span a{
+    font-weight: 700;
+    color: blueviolet;
+}
+.mainbtn{
+    margin-top: 20px;
+    font-size: 20px;
+    font-style: italic;
+    padding: 5px 25px;
+    display: flex;
+    gap: 30px;
+}
+.btn{
+    border: 1px solid rgb(35, 4, 118);
+    padding: 5px 5%;
+    color: rgb(0, 9, 109);
+    font-weight: 700;
+    background-color: rgba(3, 104, 144, 0.918);
+    border-radius: 10px;
+    transition: all .6s ease-in-out;
+}
+.btn:hover{
+    border: 3px solid  rgba(3, 104, 144, 0.918);
+    color: rgba(3, 104, 144, 0.918);
+    background:transparent;
+    transform:translateY(-5px);
+}
+.About spam{
+    font-weight: bold;
+    color: blueviolet;
+}
+.skills{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    
+}
+.container{
+    display: flex;
+    background-color: rgb(5, 177, 235);
+    height: 30px;
+    width: 100%;
+    text-align: right;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 5px;
+}
+.skill-bars{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.HTML{
+    background-color: blueviolet;
+    width: 90%;
+    border-radius:5px ;
+    
+}
+.CSS{
+    background-color: blueviolet;
+    width: 80%;
+    border-radius:5px ;
+    
+}
+.nodejs{
+    background-color: blueviolet;
+    width: 80%;
+    border-radius:5px ;
+    
+}
+.reactjs{
+    background-color: blueviolet;
+    width: 70%;
+    border-radius:5px ;
+    
+}
+.Python{
+    background-color: blueviolet;
+    width: 90%;
+    border-radius:5px ;
+    
+}
+.Bootstrap{
+    background-color: blueviolet;
+    width: 70%;
+    border-radius:5px ;
+    
+}
+.Projects{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    column-gap: 20px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.Projects img{
+   width:100%;
+   height: 200px;
+   border: 3px solid blueviolet;
+}
+.Projects p{
+   margin-bottom: 10px;
+   color: cornflowerblue;
+   font-size: 30px;
+   font-style: italic;
+   font-weight: 700;
+   text-shadow: 1px 1px blueviolet;
+}
+.con{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 70px;
+    border-image-width: 100%;
+    padding: 20px 20%;
+}
+.con p{
+    margin-bottom: 0;
+}
+.soc i{
+    margin-left: 20px;
+    display: inline-flex;
+    justify-content: center;
+   align-items: center;
+   height: 30px;
+   width: 30px;
+   font-size: 30px;
+   transition:all 0.6s ease-in-out;
+}
+.soc i:hover{
+    color:blueviolet;
+    transform:translateY(-5px);
+}
+footer p{
+    font-style: italic;
+    margin: 0;
+}
+footer{
+    margin-bottom: 30px;
+}
+footer a{
+    color:blueviolet;
+}
